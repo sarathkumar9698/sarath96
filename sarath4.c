@@ -2,20 +2,18 @@
 #include<conio.h>
 int main()
 {
-int a;
-{
-if(a<5);
-scanf("%d",&a);
-printf(the numbers are small");
-else(a=1)
-     {
-      printf("The no are equal");
-      }
-      else(a>5)
+int a,b,c;
+scanf("%d%d%d",&a,b,c);
+if(a>b&&a>c)     
+printf("%d a is the larger number",a);
+else(a>b)  
+     
+      printf("%d b is the largest number",b);
+      
+     else
       {
-      printf("the numbers are large");
-      }
-      }
+      printf("%d is the largest number",c);
+     }
       getch();
       return 0;
       }
