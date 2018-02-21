@@ -1,11 +1,13 @@
-#include<stdio.h>
+#include <stdio.h>
 #include<conio.h>
-void main()
+#include<time.h>
+int main() 
 {
-	int a,sum=0;
-	printf("ENTER THE  NUMBER  :\n");
-	scanf("%d",&a);
-	sum=(a*(a-1))/2;
-	printf("THE SUM OF NOS %d IS %d",a,sum);
-  getch();
+	int m,hr,mins;
+	scanf("%d",&m);
+	hr=m/60;
+	mins=m%60;
+	printf("%d %d",hr,mins);
+	getch();
+	return 0;
 }
